@@ -230,7 +230,7 @@ void draw() {
          }
          image(flame[flamenum],flameX,flameY);
          timer++;
-         if(timer>24){
+         if(timer>10){
            flamenum++;
            timer = 0;
          }
@@ -253,7 +253,7 @@ void draw() {
    }
          image(flame[flamenum],flameX,flameY);
          timer++;
-         if(timer>24){
+         if(timer>10){
            flamenum++;
            timer = 0;
          }
@@ -277,7 +277,7 @@ void draw() {
        }
          image(flame[flamenum],flameX,flameY);
          timer++;
-         if(timer>24){
+         if(timer>10){
            flamenum++;
            timer = 0;
          }
